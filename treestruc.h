@@ -16,4 +16,5 @@ void postorder(struct tree *root); /* реверсивный обход */
 
 struct tree *dtree(struct tree *root, char key); /* удаление вершины */
 
+
 #endif
