@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <treestruc.h>
 
 struct tree 
 {
