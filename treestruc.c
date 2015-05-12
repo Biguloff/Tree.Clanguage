@@ -4,7 +4,7 @@ struct tree
 {
 char info;
 struct tree *left;
-struct tree *right;
+struct tree *right; 
 };
 
 
@@ -15,6 +15,7 @@ if(!root) return;
 inorder(root->left);
 if(root->info) printf("%c ", root->info);
 inorder(root->right);
+
 
 
 void preorder(struct tree *root)
