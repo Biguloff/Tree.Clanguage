@@ -47,7 +47,7 @@ struct tree *dtree(struct tree *root, char key)
 	free(root);
 	return NULL;
 }
-	/* или если одно из поддеревьев пустое */
+	/* или если одно из поддеревьев пустое   */
 else if(root->left == NULL) 
 {
 	p = root->right;
@@ -75,6 +75,7 @@ if(root->info < key) root->right = dtree(root->right, key);
 else root->left = dtree(root->left, key);
 
 return root;
+
 }
 
 /* CS MSU 2015
